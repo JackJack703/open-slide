@@ -193,10 +193,13 @@ export const ja: Locale = {
     cropFitContain: '全体表示',
     cropApply: '適用',
     cropResetAria: 'トリミングをリセット',
-    noteForAgent: 'エージェントへのメモ',
-    noteAgentPlaceholder: 'エージェントに依頼する変更を記述…',
-    noteShortcutHint: '⌘↵ で送信',
-    addNote: 'メモを追加',
+    agentWatching: 'エージェント監視中',
+    agentWatchingTooltip:
+      'エージェントは選択中の要素を dev server 経由で把握しています。直接チャットで頼めます。ここにコメントを残すのは、複数の依頼をまとめて出したいときだけで OK。',
+    leaveComment: 'コメントを残す',
+    commentPlaceholder: 'エージェントに依頼する変更を記述…',
+    commentShortcutHint: '⌘↵ で追加',
+    addComment: 'コメントを追加',
     unsavedChanges: {
       one: '未保存の変更 {count} 件',
       other: '未保存の変更 {count} 件',

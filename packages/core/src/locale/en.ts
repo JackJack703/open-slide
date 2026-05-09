@@ -156,6 +156,9 @@ export const en: Locale = {
   inspector: {
     inspect: 'Inspect',
     deselect: 'Deselect',
+    agentWatching: 'Agent is watching',
+    agentWatchingTooltip:
+      'Your agent already sees the selected element via the dev server — just ask it in chat. Leave comments here only when you want to queue a few before asking.',
     contentSection: 'Content',
     typographySection: 'Typography',
     colorSection: 'Color',
@@ -192,10 +195,10 @@ export const en: Locale = {
     cropFitContain: 'Fit',
     cropApply: 'Apply',
     cropResetAria: 'Reset crop',
-    noteForAgent: 'Note for the agent',
-    noteAgentPlaceholder: 'Describe a change for the agent…',
-    noteShortcutHint: '⌘↵ to send',
-    addNote: 'Add note',
+    leaveComment: 'Leave a comment',
+    commentPlaceholder: 'Describe a change for the agent…',
+    commentShortcutHint: '⌘↵ to add',
+    addComment: 'Add comment',
     unsavedChanges: {
       one: '{count} unsaved change',
       other: '{count} unsaved changes',
